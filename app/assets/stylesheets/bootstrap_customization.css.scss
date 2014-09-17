@@ -1,8 +1,16 @@
-$navbar-inverse-bg: 			#a9511e;
-$navbar-inverse-link-color: 	white;
-$body-bg:  						lighten(#9e978e, 5%);
-$jumbotron-bg:					lighten(#b3922a, 10%);
-$jumbotron-color:				darken(#919085, 20%);
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 
+$font-family-sans-serif:		'Gloria Hallelujah', cursive;
+$font-size-base:				13px;
+$font-size-small:				ceil(($font-size-base * 0.85));
+$font-size-large:				ceil(($font-size-base * 1.25));
+$navbar-inverse-bg: 			#ab2328;
+$navbar-inverse-link-color: 	#d9d9d6;
+$navbar-height:					48px;
+$body-bg:  						lighten(#fffafa, 5%);
+$jumbotron-bg:					lighten(#8d9092, 10%);
+$jumbotron-color:				#f0ffff;
 
 @import 'bootstrap';
+
