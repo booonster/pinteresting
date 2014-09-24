@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
@@ -19,6 +19,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+# Devise is a flexible authentication solution for Rails. Read more: https://github.com/plataformatec/devise
+gem 'devise', '~> 3.3.0'
+# bcrypt() is a sophisticated and secure hash algorithm designed by The OpenBSD project for hashing passwords.
+gem 'bcrypt-ruby', '3.1.5'
 
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
